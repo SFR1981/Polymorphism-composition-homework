@@ -4,13 +4,24 @@
 
 1. What does the ___word___ 'polymorphism' mean?
 
+Of many forms
+
 2. What does it mean when we apply polymorphism to OO design? Give a simple Java example.
+
+Where an object can be said to be of more than one type.
+E.g A room in a hotel might be of type 'bedroom' as well as of type 'chargeable'
 
 3. What can we use to implement polymorphism in Java?
 
+inheritance - a class inheriting an abstract class and implementing one or more interfaces would have more than one type , or could be said to that it 'IS A' of whatever type the interfaces or abstract class are.
+
 4. How many 'forms' can an object take when using polymorphism?
+this would be the number of the interfaces/abstract class it inherited type from
 
 5. Give an example of when you could use polymorphism.
+modelling an animal say, a deer. Which inherits from a
+class "woodland animal" but implements an interface "herbivore"
+we might require both types to be used in our model
 
 
 
