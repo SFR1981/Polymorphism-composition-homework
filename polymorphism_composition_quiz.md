@@ -18,8 +18,16 @@
 
 6. What do we mean by 'composition' in reference to object-oriented programming?
 
+A class has an instance or instances of other small class(es), as an attribute or attributes, which allows it to 'inherit' a specific desired behaviour rather than inherit a larger class with specific rigid behaviour to adhere to
+
 7. When would you use composition? Provide a simple example in Java.
+When we don't appear to have a clear and single hierarchy. Where we wish to have certain functional behaviours on a subset of the objects, without requiring them to inherit a class full of other functions we don't want to worry about, without the class itself being responsible for the functional behaviour (that is dealt with by the behaviour/ IClass/hasABLE)
+
 
 8. What is/are the advantage(s) of using composition?
+Compared to inheritance, smaller 'chunks' of behaviour can be set as objects composition, these behaviours can be switched in and out as required by the needs the user
 
 9. What happens to the behaviours when the object composed of them is destroyed?
+
+
+the behaviours (which are other objects) are destroyed along with the object whose composition included them.
